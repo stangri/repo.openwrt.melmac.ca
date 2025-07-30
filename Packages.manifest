@@ -26,10 +26,10 @@ SourceDateEpoch: 1750878155
 URL: https://github.com/stangri/adblock-fast/
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 102400
+Installed-Size: 112640
 Filename: adblock-fast_1.1.4-r4_all.ipk
-Size: 21382
-SHA256sum: dc6f4f7138e218c7911369d90a49d0dc62ddd5185996bace8d4ef59118227f1c
+Size: 21654
+SHA256sum: 6166e7c4c64ac47ef066bfb4d4819e87320ccd9aa737337eb0f4beef84bb52fc
 Description:  Fast AdBlocking script to block ad or abuse/malware domains with Dnsmasq, SmartDNS or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.ca/adblock-fast/ for more information.
