@@ -20,8 +20,8 @@ URL: https://github.com/stangri/adblock-fast/
 Architecture: all
 Installed-Size: 112640
 Filename: adblock-fast_1.1.4-r4_all.ipk
-Size: 21654
-SHA256sum: 6166e7c4c64ac47ef066bfb4d4819e87320ccd9aa737337eb0f4beef84bb52fc
+Size: 21653
+SHA256sum: 5a9ffe951d2da349e9303c1e75f5edbeee98d4fd1b82154b591abde1bd6bb2aa
 Description:  Fast AdBlocking script to block ad or abuse/malware domains with Dnsmasq, SmartDNS or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.ca/adblock-fast/ for more information.
