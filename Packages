@@ -12,16 +12,16 @@ Description:  Simple PROCD script to start/stop multiple services affecting DNS 
  Please see https://docs.openwrt.melmac.net/3rd-party-dns/ for more information.
 
 Package: adblock-fast
-Version: 1.1.4-r5
+Version: 1.1.4-r4
 Depends: libc, jshn, curl
 License: AGPL-3.0-or-later
 Section: net
 URL: https://github.com/stangri/adblock-fast/
 Architecture: all
 Installed-Size: 112640
-Filename: adblock-fast_1.1.4-r5_all.ipk
-Size: 21876
-SHA256sum: c8efcf2ee4604bf72901b389a97540194f493966f66a5c3cb56a25063f1ebf6b
+Filename: adblock-fast_1.1.4-r4_all.ipk
+Size: 21873
+SHA256sum: fc8d16855e5cf6062c82b3e7394f792ad5936838df98fb6e910e8900d21e7220
 Description:  Fast AdBlocking script to block ad or abuse/malware domains with Dnsmasq, SmartDNS or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.ca/adblock-fast/ for more information.
@@ -67,16 +67,16 @@ Description:  This service can be used to fake internet connectivity for local d
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
 Package: luci-app-adblock-fast
-Version: 1.1.4-r5
+Version: 1.1.4-r4
 Depends: libc, luci-base, adblock-fast, jsonfilter
 License: AGPL-3.0-or-later
 Section: luci
 URL: https://github.com/stangri/luci-app-adblock-fast/
 Architecture: all
 Installed-Size: 51200
-Filename: luci-app-adblock-fast_1.1.4-r5_all.ipk
-Size: 9863
-SHA256sum: 23d9a9965abe776a30a3fa5ad16f4d58a22a5a8d9f3d5d9f196d8bddb2d113a8
+Filename: luci-app-adblock-fast_1.1.4-r4_all.ipk
+Size: 9869
+SHA256sum: 049597a63e1d3b8515c019294ba46dc82602fdd9202ba33e6956d9ae401863f9
 Description:  Provides Web UI for adblock-fast service.
 
 Package: luci-app-advanced-reboot
@@ -139,8 +139,8 @@ URL: https://github.com/stangri/luci-app-pbr/
 Architecture: all
 Installed-Size: 51200
 Filename: luci-app-pbr_1.1.8-r32_all.ipk
-Size: 10244
-SHA256sum: 82855aa0712048477bfb70a9b28d2cff3c885d0f820699810374008b6f23cb65
+Size: 10247
+SHA256sum: 516a20876eca6dea06ddce5c9cc418548b4c481cfe87781b8fc10788fd19aab9
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -224,8 +224,8 @@ URL: https://github.com/stangri/pbr/
 Architecture: all
 Installed-Size: 133120
 Filename: pbr_1.1.8-r32_all.ipk
-Size: 25200
-SHA256sum: 11dbb4bd00fc330568e61163e9a035dd4aec3c4ede3f500c326e65736414e50d
+Size: 25178
+SHA256sum: fe523e0c70def78c5e9ce433462f668db2cd7b2c3cac0d66a811410b692c3f82
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt (23.05 and newer) with firewall4/nft.
 
