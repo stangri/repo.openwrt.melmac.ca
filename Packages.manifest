@@ -28,8 +28,8 @@ Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
 Installed-Size: 112640
 Filename: adblock-fast_1.1.4-r4_all.ipk
-Size: 21904
-SHA256sum: 82c6e3703f17bfff11f7e5b2c20c7bc7112fa8e537d2fb1586e8bfaa8302a50c
+Size: 21903
+SHA256sum: 9d86f8f9770803dbc634143ce9a8c113ce42ba128b36f214b20e48b9cedf5d43
 Description:  Fast AdBlocking script to block ad or abuse/malware domains with Dnsmasq, SmartDNS or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.ca/adblock-fast/ for more information.
@@ -97,10 +97,10 @@ SourceDateEpoch: 1750878155
 URL: https://github.com/stangri/luci-app-adblock-fast/
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 51200
+Installed-Size: 61440
 Filename: luci-app-adblock-fast_1.1.4-r4_all.ipk
-Size: 9869
-SHA256sum: 049597a63e1d3b8515c019294ba46dc82602fdd9202ba33e6956d9ae401863f9
+Size: 9987
+SHA256sum: 3c02431b2d2e95450c7a02f1198ad52d1c9e70b7afd99cdeb09d5d1a4842a8ee
 Description:  Provides Web UI for adblock-fast service.
 
 Package: luci-app-advanced-reboot
@@ -183,8 +183,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 51200
 Filename: luci-app-pbr_1.1.8-r32_all.ipk
-Size: 10247
-SHA256sum: 516a20876eca6dea06ddce5c9cc418548b4c481cfe87781b8fc10788fd19aab9
+Size: 10321
+SHA256sum: 95afbabd7e2c60a409f0602eef898ee385c99eb09a18d7e58fd730b8df5e90e7
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -296,8 +296,8 @@ Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
 Installed-Size: 133120
 Filename: pbr_1.1.8-r32_all.ipk
-Size: 25178
-SHA256sum: fe523e0c70def78c5e9ce433462f668db2cd7b2c3cac0d66a811410b692c3f82
+Size: 25171
+SHA256sum: 3a3ea1b835002ba1dee681b4ddc991f44b21ca25a2c85d27370e2037a9d3a7c5
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt (23.05 and newer) with firewall4/nft.
 
