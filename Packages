@@ -117,16 +117,16 @@ SHA256sum: e5fd0bae0131a45d4764fd21e88a71203998587758c9d1ff560a40da2d8fdea0
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-https-dns-proxy
-Version: 2025.05.11-r3
+Version: 2025.05.11-r4
 Depends: libc, luci-base, https-dns-proxy
 License: AGPL-3.0-or-later
 Section: luci
 URL: https://github.com/stangri/luci-app-https-dns-proxy/
 Architecture: all
 Installed-Size: 102400
-Filename: luci-app-https-dns-proxy_2025.05.11-r3_all.ipk
-Size: 12386
-SHA256sum: fccb461629b29eede95dd329757f6b99b1c0c19a2e14e815c48aace341ce59f2
+Filename: luci-app-https-dns-proxy_2025.05.11-r4_all.ipk
+Size: 12382
+SHA256sum: a4d723b660e607303fb61eff89a26eb0c11d5eb1271b1a7bb67bf6d61fc3072c
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
