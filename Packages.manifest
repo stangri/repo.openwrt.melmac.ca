@@ -267,6 +267,23 @@ Size: 2677
 SHA256sum: 452ca74b128883b310bd4fa160feab35d54e5ebc57b94a61e3898b1dc33b248a
 Description:  Provides Web UI for WLAN Blinker service.
 
+Package: luci-app-yaaw
+Version: 1.0.0-r1
+Depends: libc, luci-base
+Source: feeds/base/luci/applications/luci-app-yaaw
+SourceName: luci-app-yaaw
+License: AGPL-3.0-or-later
+Section: luci
+SourceDateEpoch: 1750878155
+URL: https://github.com/stangri/luci-app-yaaw/
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 450560
+Filename: luci-app-yaaw_1.0.0-r1_all.ipk
+Size: 126602
+SHA256sum: 9360d72a3f7d4522545015a244fc05608d96ba7f61f68223853892ca67a5aa64
+Description:  Provides Web UI for Yet Another Aria2c.
+
 Package: luci-proto-nebula
 Version: 1.8.2-2
 Depends: libc, nebula, nebula-proto
