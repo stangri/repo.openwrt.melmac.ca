@@ -138,8 +138,8 @@ URL: https://github.com/stangri/luci-app-pbr/
 Architecture: all
 Installed-Size: 51200
 Filename: luci-app-pbr_1.1.9-r9_all.ipk
-Size: 10321
-SHA256sum: 9571ea8460195ceaf6619e09b3b4539facc7382b98799af23a1dcb71d2ea73e1
+Size: 10315
+SHA256sum: 009fa898bbf4f1dc517d683a85ea92145b4f9153d9b496f2def9557af7689421
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -236,8 +236,8 @@ URL: https://github.com/stangri/pbr/
 Architecture: all
 Installed-Size: 133120
 Filename: pbr_1.1.9-r9_all.ipk
-Size: 25012
-SHA256sum: ba16c28deca8de18206a845a4ca36882c68462a075be539cd92767caeabba2fd
+Size: 25250
+SHA256sum: 86a57301f583e75caf38604d7bd20a3193dadca41b63f05f9ac4d63ea938eeb8
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt (23.05 and newer) with firewall4/nft.
 
