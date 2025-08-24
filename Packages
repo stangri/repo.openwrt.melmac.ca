@@ -88,8 +88,8 @@ URL: https://github.com/stangri/luci-app-advanced-reboot/
 Architecture: all
 Installed-Size: 112640
 Filename: luci-app-advanced-reboot_1.1.1-r1_all.ipk
-Size: 12443
-SHA256sum: d22b26fe83ba06f22013708fd2b72ff564cdd837d87607d0e4d749a4abc178b1
+Size: 12450
+SHA256sum: e1efb10bbfe7f050a69fa21bc1240fd2cb16d66d55c26a3b186ed43d19ee753d
 Description:  Provides Web UI (found under System/Advanced Reboot) to reboot supported Linksys and ZyXEL routers to an alternative partition. Also provides Web UI to shut down (power off) your device. Supported dual-partition routers are listed at https://docs.openwrt.melmac.ca/luci-app-advanced-reboot/
 
 Package: luci-app-easyflash
