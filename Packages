@@ -237,7 +237,7 @@ Architecture: all
 Installed-Size: 133120
 Filename: pbr_1.1.9-r21_all.ipk
 Size: 25192
-SHA256sum: 9e3aa02e8d0b8183f5fe6a9f70b0a8af620e877b4053a5cd768442e25091a9e3
+SHA256sum: 7d36db10013dd565b4d52946c9280f726032b6f3c9302140fd1c98ada73cb892
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt (23.05 and newer) with firewall4/nft.
 
