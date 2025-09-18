@@ -20,8 +20,8 @@ URL: https://github.com/stangri/adblock-fast/
 Architecture: all
 Installed-Size: 112640
 Filename: adblock-fast_1.2.0-r2_all.ipk
-Size: 22021
-SHA256sum: a48ac9b48ecfe9ab210509bf8de217f28414c6365e2dd81a9a5a8d31cf70bc66
+Size: 22020
+SHA256sum: 9ee79d954ce5469bc0b06c2aef2538acd06cdfdbc515bb56ba9f1c11578a6451
 Description:  Fast AdBlocking script to block ad or abuse/malware domains with Dnsmasq, SmartDNS or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.ca/adblock-fast/ for more information.
@@ -130,16 +130,16 @@ SHA256sum: 66916edee287e5ab270a3608f9c3bcca32a58ddba094617f260bc55cdb37f284
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
-Version: 1.1.9-r35
+Version: 1.1.9-r37
 Depends: libc, luci-base, jsonfilter, pbr
 License: AGPL-3.0-or-later
 Section: luci
 URL: https://github.com/stangri/luci-app-pbr/
 Architecture: all
 Installed-Size: 51200
-Filename: luci-app-pbr_1.1.9-r35_all.ipk
+Filename: luci-app-pbr_1.1.9-r37_all.ipk
 Size: 10649
-SHA256sum: 26181e4182b69284f1d8f8482b31f6a4c4138dbbad8b220cd38ac6d5bf663d83
+SHA256sum: 2ace9d0f5173f4d4c308c2373fd80bbe9a4e5eae0328fde286601214ecb9798a
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -228,16 +228,16 @@ SHA256sum: 9b224642b8e560fd414b02d70c8c3c283fe6084ad067d8496afab0a8de8d9235
 Description:  Provides Web UI for Nebula protocol/interface.
 
 Package: pbr
-Version: 1.1.9-r35
+Version: 1.1.9-r37
 Depends: libc, ip-full, jshn, jsonfilter, resolveip, kmod-nft-core, kmod-nft-nat, nftables-json
 License: AGPL-3.0-or-later
 Section: net
 URL: https://github.com/stangri/pbr/
 Architecture: all
 Installed-Size: 133120
-Filename: pbr_1.1.9-r35_all.ipk
-Size: 26313
-SHA256sum: 6c5609909ac098a5cef23c557cefb533843e3ed5caa51f0e9648c489781c9bea
+Filename: pbr_1.1.9-r37_all.ipk
+Size: 26317
+SHA256sum: 515b7eee3b0fdd794d0daa283ee892ae102259942a45d11a0a9b7a9b3909f926
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt (23.05 and newer) with firewall4/nft.
 
