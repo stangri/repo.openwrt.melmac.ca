@@ -12,16 +12,16 @@ Description:  Simple PROCD script to start/stop multiple services affecting DNS 
  Please see https://docs.openwrt.melmac.net/3rd-party-dns/ for more information.
 
 Package: adblock-fast
-Version: 1.2.0-r6
+Version: 1.2.0-r10
 Depends: libc, jshn, curl
 License: AGPL-3.0-or-later
 Section: net
 URL: https://github.com/stangri/adblock-fast/
 Architecture: all
 Installed-Size: 112640
-Filename: adblock-fast_1.2.0-r6_all.ipk
-Size: 22470
-SHA256sum: adb33a11d7997ea4f780cab1f66cf599855d44f0c4d1c6a2de2a375c6c788611
+Filename: adblock-fast_1.2.0-r10_all.ipk
+Size: 22615
+SHA256sum: d89581c59e991ca2f7184814bffb9c520a2afada43b1dec9ddba1218fc05106d
 Description:  Fast AdBlocking script to block ad or abuse/malware domains with Dnsmasq, SmartDNS or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.ca/adblock-fast/ for more information.
@@ -67,16 +67,16 @@ Description:  This service can be used to fake internet connectivity for local d
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
 Package: luci-app-adblock-fast
-Version: 1.2.0-r6
+Version: 1.2.0-r10
 Depends: libc, luci-base, adblock-fast, jsonfilter
 License: AGPL-3.0-or-later
 Section: luci
 URL: https://github.com/stangri/luci-app-adblock-fast/
 Architecture: all
 Installed-Size: 61440
-Filename: luci-app-adblock-fast_1.2.0-r6_all.ipk
-Size: 10040
-SHA256sum: a11ef89391d564f8c1d7d41c4a2aaf551e9e530e3e3e29f78b26eef3b539b354
+Filename: luci-app-adblock-fast_1.2.0-r10_all.ipk
+Size: 10045
+SHA256sum: c53108fc8281237433d960d711630ab79c81d452e8d2dd726a46b91cebf737f3
 Description:  Provides Web UI for adblock-fast service.
 
 Package: luci-app-advanced-reboot
@@ -117,29 +117,29 @@ SHA256sum: e5fd0bae0131a45d4764fd21e88a71203998587758c9d1ff560a40da2d8fdea0
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-https-dns-proxy
-Version: 2025.09.11-r2
+Version: 2025.09.11-r3
 Depends: libc, luci-base, https-dns-proxy
 License: AGPL-3.0-or-later
 Section: luci
 URL: https://github.com/stangri/luci-app-https-dns-proxy/
 Architecture: all
 Installed-Size: 102400
-Filename: luci-app-https-dns-proxy_2025.09.11-r2_all.ipk
-Size: 12702
-SHA256sum: 7f3864c02d3e9fbbee4000d026060f2fa1916e68762e7de1691763e9750a652d
+Filename: luci-app-https-dns-proxy_2025.09.11-r3_all.ipk
+Size: 12713
+SHA256sum: 64e040b4d712a112ae8c6821d0c853025636878573bdfee2d361bf7c77d5a966
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
-Version: 1.1.9-r49
+Version: 1.1.9-r53
 Depends: libc, luci-base, jsonfilter, pbr
 License: AGPL-3.0-or-later
 Section: luci
 URL: https://github.com/stangri/luci-app-pbr/
 Architecture: all
 Installed-Size: 51200
-Filename: luci-app-pbr_1.1.9-r49_all.ipk
-Size: 10650
-SHA256sum: 7787ac10148963f9fa3e2d202d34eb503ec1a31f64bebd1fc11edc13ab4f00ab
+Filename: luci-app-pbr_1.1.9-r53_all.ipk
+Size: 10659
+SHA256sum: 6ea5d2ecb306a8537392b8dce35ee8aa0e3e6dc2546a011dbb9aa9e413bbbcf7
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -228,16 +228,16 @@ SHA256sum: 9b224642b8e560fd414b02d70c8c3c283fe6084ad067d8496afab0a8de8d9235
 Description:  Provides Web UI for Nebula protocol/interface.
 
 Package: pbr
-Version: 1.1.9-r49
+Version: 1.1.9-r53
 Depends: libc, ip-full, jshn, jsonfilter, resolveip, kmod-nft-core, kmod-nft-nat, nftables-json
 License: AGPL-3.0-or-later
 Section: net
 URL: https://github.com/stangri/pbr/
 Architecture: all
 Installed-Size: 133120
-Filename: pbr_1.1.9-r49_all.ipk
-Size: 26399
-SHA256sum: 57c5cf8f4f17fb297a439aa51328fefc569781cdfdb94778d6aa3bc9b92862d1
+Filename: pbr_1.1.9-r53_all.ipk
+Size: 26535
+SHA256sum: f7f6bc9b5bb330e6d3164dbe70de2435798e7763c74a1d018b2161d5278f216d
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt (23.05 and newer) with firewall4/nft.
 
