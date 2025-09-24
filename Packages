@@ -20,8 +20,8 @@ URL: https://github.com/stangri/adblock-fast/
 Architecture: all
 Installed-Size: 112640
 Filename: adblock-fast_1.2.0-r10_all.ipk
-Size: 22615
-SHA256sum: d89581c59e991ca2f7184814bffb9c520a2afada43b1dec9ddba1218fc05106d
+Size: 22594
+SHA256sum: 94ba94d9e898f9b6529183d9cf3bf2d18f5885e0b881517fe1ae00078c932e5a
 Description:  Fast AdBlocking script to block ad or abuse/malware domains with Dnsmasq, SmartDNS or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.ca/adblock-fast/ for more information.
@@ -236,8 +236,8 @@ URL: https://github.com/stangri/pbr/
 Architecture: all
 Installed-Size: 133120
 Filename: pbr_1.1.9-r53_all.ipk
-Size: 26535
-SHA256sum: f7f6bc9b5bb330e6d3164dbe70de2435798e7763c74a1d018b2161d5278f216d
+Size: 26506
+SHA256sum: 3249b8dfe302aec143e04329df8643b767b84ebd46ccb495a489155c1d7265d4
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt (23.05 and newer) with firewall4/nft.
 
