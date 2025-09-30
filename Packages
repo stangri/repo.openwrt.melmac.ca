@@ -237,8 +237,8 @@ URL: https://github.com/stangri/pbr/
 Architecture: all
 Installed-Size: 143360
 Filename: pbr-netifd_1.2.1-r1_all.ipk
-Size: 28275
-SHA256sum: 77f8202c2cd1e5636ff83b2cdbd75afca3e72f77341d9b86f3744c6fbc6a095b
+Size: 28352
+SHA256sum: 125234312941ccf66e0bd65bddae8d7e65fd03a11cd0a25baf2c177b85caf07b
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt with (23.05 and newer) firewall4/nft.
  This version uses OpenWrt native netifd/tables to set up interfaces. This is a WIP.
