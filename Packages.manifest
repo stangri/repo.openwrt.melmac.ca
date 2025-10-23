@@ -22,14 +22,14 @@ Source: feeds/packages/stangri/adblock-fast
 SourceName: adblock-fast
 License: AGPL-3.0-or-later
 Section: net
-SourceDateEpoch: 1758496969
+SourceDateEpoch: 1761149982
 URL: https://github.com/stangri/adblock-fast/
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
 Installed-Size: 112640
 Filename: adblock-fast_1.2.0-r22_all.ipk
-Size: 22943
-SHA256sum: e1034a07147fc6fbe5b6b394b56aba477d1ddf8df717817aafd475f6acad47a6
+Size: 22926
+SHA256sum: adaa236d3c1f675567a4b82c8c3582aca4ebeb4e34e5c146577bf35205bdce1b
 Description:  Fast AdBlocking script to block ad or abuse/malware domains with Dnsmasq, SmartDNS or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.ca/adblock-fast/ for more information.
@@ -93,14 +93,14 @@ Source: feeds/base/luci/applications/luci-app-adblock-fast
 SourceName: luci-app-adblock-fast
 License: AGPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1758496969
+SourceDateEpoch: 1761149982
 URL: https://github.com/stangri/luci-app-adblock-fast/
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 61440
 Filename: luci-app-adblock-fast_1.2.0-r22_all.ipk
-Size: 10048
-SHA256sum: 7cd4106013192107fc324dd7889e7e3d3dcb181c58b4608430cbcd40619ef2dc
+Size: 10054
+SHA256sum: 0061207d16c81c725eb6b8417120ea7f91a22ceb27301adc9083ada4a960435d
 Description:  Provides Web UI for adblock-fast service.
 
 Package: luci-app-advanced-reboot
@@ -110,14 +110,14 @@ Source: feeds/base/luci/applications/luci-app-advanced-reboot
 SourceName: luci-app-advanced-reboot
 License: AGPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1758496969
+SourceDateEpoch: 1761149982
 URL: https://github.com/stangri/luci-app-advanced-reboot/
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 71680
+Installed-Size: 133120
 Filename: luci-app-advanced-reboot_1.1.1-r7_all.ipk
-Size: 10610
-SHA256sum: 002542c03c291fc3ef3dde1f5134dcca4235b4b91260bff8b14ce96c73adff6e
+Size: 14924
+SHA256sum: 773aa0aa95896e184b97cfc5277c39439c40b447ac3912f1eb2fc4fea3528084
 Description:  Provides Web UI (found under System/Advanced Reboot) to reboot supported Linksys and ZyXEL routers to an alternative partition. Also provides Web UI to shut down (power off) your device. Supported dual-partition routers are listed at https://docs.openwrt.melmac.ca/luci-app-advanced-reboot/
 
 Package: luci-app-easyflash
@@ -153,20 +153,20 @@ SHA256sum: e5fd0bae0131a45d4764fd21e88a71203998587758c9d1ff560a40da2d8fdea0
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-https-dns-proxy
-Version: 2025.09.11-r4
+Version: 2025.10.07-r2
 Depends: libc, luci-base, https-dns-proxy
 Source: feeds/base/luci/applications/luci-app-https-dns-proxy
 SourceName: luci-app-https-dns-proxy
 License: AGPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1758496969
+SourceDateEpoch: 1761149982
 URL: https://github.com/stangri/luci-app-https-dns-proxy/
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 102400
-Filename: luci-app-https-dns-proxy_2025.09.11-r4_all.ipk
-Size: 12711
-SHA256sum: 23578a5fe10129b1a8add79669c800e86cb340d3068e39f7842a4e82cc14d8e3
+Filename: luci-app-https-dns-proxy_2025.10.07-r2_all.ipk
+Size: 12727
+SHA256sum: daf81af85881520e2a8dc47c1b8707f48651ce6895b09cb8456426a272147870
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
@@ -176,14 +176,14 @@ Source: feeds/base/luci/applications/luci-app-pbr
 SourceName: luci-app-pbr
 License: AGPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1758496969
+SourceDateEpoch: 1761149982
 URL: https://github.com/stangri/luci-app-pbr/
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 61440
 Filename: luci-app-pbr_1.2.1-r21_all.ipk
-Size: 10783
-SHA256sum: 7c8e9d1f6aeb4553deac54c08350a58084162f43d4a70337194662c048db996b
+Size: 10791
+SHA256sum: 1fbb6ebebcf0121481e1e393d4de3954709cbf6a700ba91287e1eda698cb43a0
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -306,14 +306,14 @@ Source: feeds/packages/stangri/pbr
 SourceName: pbr
 License: AGPL-3.0-or-later
 Section: net
-SourceDateEpoch: 1758496969
+SourceDateEpoch: 1761149982
 URL: https://github.com/stangri/pbr/
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
 Installed-Size: 143360
 Filename: pbr_1.2.1-r21_all.ipk
-Size: 28474
-SHA256sum: f5a27f0dba9b8477ec15863a307167e37ee16596278f32f52b0ae2b82bd41738
+Size: 28471
+SHA256sum: 5e68827cadd3ef7013c923f3e62bc9db854423f999513bcef1a0ec96ef49cb08
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt (23.05 and newer) with firewall4/nft.
 
@@ -423,6 +423,24 @@ SHA256sum: 0096335563d44f4227ed0d08c61e37d2759d66a61a1cc0e4a8e183fd2d796c84
 Description:  This service enables switching between Router, Access Point and Wireless Repeater
  modes of operation for supported routers equipped with slider switch.
  Please see the README for further information.
+
+Package: static-device-names
+Version: 1.0.0-r1
+Depends: libc
+Source: feeds/packages/stangri/static-device-names
+SourceName: static-device-names
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1761149982
+Maintainer: Jean-Sebastien Trottier <jst@qualipsoft.com>
+Architecture: all
+Installed-Size: 30720
+Filename: static-device-names_1.0.0-r1_all.ipk
+Size: 6148
+SHA256sum: 7990333f9799da55031d8e054897fe921874319d86105c902a2078f665232481
+Description:  This package contains a utility to automatically rename device names based on
+ predetermined rules such as MAC addresses or PCI IDs and PCI/USB slots.
 
 Package: vpn-policy-routing
 Version: 0.3.4-8
