@@ -138,8 +138,8 @@ URL: https://github.com/stangri/luci-app-pbr/
 Architecture: all
 Installed-Size: 61440
 Filename: luci-app-pbr_1.2.1-r43_all.ipk
-Size: 11014
-SHA256sum: 87b74b5e815fdc6cc24ee6860e491fbe6741aeacc3087055310df413018035cc
+Size: 11057
+SHA256sum: cbd9d408718521ec34e797944c1a179262c3daf45f966ff577d9e791b778161a
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
