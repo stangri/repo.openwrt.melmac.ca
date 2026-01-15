@@ -75,8 +75,8 @@ URL: https://github.com/stangri/luci-app-adblock-fast/
 Architecture: all
 Installed-Size: 61440
 Filename: luci-app-adblock-fast_1.2.0-r26_all.ipk
-Size: 10240
-SHA256sum: b3a1a02ff892244a3ef8434e84694442255c77ed12f311e8bfc8b3731eeb370b
+Size: 10221
+SHA256sum: 88d1ef1f6af051cbdcf4f2d39702b24b14cb820295c19b7d9cef81d2a3cb28bd
 Description:  Provides Web UI for adblock-fast service.
 
 Package: luci-app-advanced-reboot
@@ -125,8 +125,8 @@ URL: https://github.com/stangri/luci-app-https-dns-proxy/
 Architecture: all
 Installed-Size: 102400
 Filename: luci-app-https-dns-proxy_2025.12.29-r1_all.ipk
-Size: 13503
-SHA256sum: 44acae00b6077a62452008e8cf8d3503ba64039126f6f8380436ede85471f992
+Size: 13554
+SHA256sum: 74de82054092faf27ecf94180ad9a20b14cf9bdf7be035dc303397328fd5c5e1
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
