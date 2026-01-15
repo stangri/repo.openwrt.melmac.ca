@@ -16,7 +16,7 @@ Description:  Simple PROCD script to start/stop multiple services affecting DNS 
  Please see https://docs.openwrt.melmac.net/3rd-party-dns/ for more information.
 
 Package: adblock-fast
-Version: 1.2.0-r26
+Version: 1.2.0-r28
 Depends: libc, jshn, curl
 Source: feeds/packages/stangri/adblock-fast
 SourceName: adblock-fast
@@ -27,9 +27,9 @@ URL: https://github.com/stangri/adblock-fast/
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
 Installed-Size: 112640
-Filename: adblock-fast_1.2.0-r26_all.ipk
-Size: 22935
-SHA256sum: 246ca22713baac469a71be55007bd90a50241631849a1f2a1fddd4429fd7affb
+Filename: adblock-fast_1.2.0-r28_all.ipk
+Size: 22937
+SHA256sum: 35d6b5108710a242c5dfff33ed2e998c9eba0e23180fcac73492b1c56520a6f9
 Description:  Fast AdBlocking script to block ad or abuse/malware domains with Dnsmasq, SmartDNS or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.ca/adblock-fast/ for more information.
@@ -87,7 +87,7 @@ Description:  This service can be used to fake internet connectivity for local d
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
 Package: luci-app-adblock-fast
-Version: 1.2.0-r26
+Version: 1.2.0-r28
 Depends: libc, luci-base, adblock-fast, jsonfilter
 Source: feeds/base/luci/applications/luci-app-adblock-fast
 SourceName: luci-app-adblock-fast
@@ -98,9 +98,9 @@ URL: https://github.com/stangri/luci-app-adblock-fast/
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 61440
-Filename: luci-app-adblock-fast_1.2.0-r26_all.ipk
-Size: 10221
-SHA256sum: 88d1ef1f6af051cbdcf4f2d39702b24b14cb820295c19b7d9cef81d2a3cb28bd
+Filename: luci-app-adblock-fast_1.2.0-r28_all.ipk
+Size: 10222
+SHA256sum: 8fd0b746ee9815d306474c401884b1d840d6d09c517c255aba03483f8bfa45eb
 Description:  Provides Web UI for adblock-fast service.
 
 Package: luci-app-advanced-reboot
@@ -153,7 +153,7 @@ SHA256sum: e5fd0bae0131a45d4764fd21e88a71203998587758c9d1ff560a40da2d8fdea0
 Description:  Provides Web UI for Fakeinternet.
 
 Package: luci-app-https-dns-proxy
-Version: 2025.12.29-r1
+Version: 2025.12.29-r2
 Depends: libc, luci-base, https-dns-proxy
 Source: feeds/base/luci/applications/luci-app-https-dns-proxy
 SourceName: luci-app-https-dns-proxy
@@ -164,9 +164,9 @@ URL: https://github.com/stangri/luci-app-https-dns-proxy/
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 102400
-Filename: luci-app-https-dns-proxy_2025.12.29-r1_all.ipk
+Filename: luci-app-https-dns-proxy_2025.12.29-r2_all.ipk
 Size: 13554
-SHA256sum: 74de82054092faf27ecf94180ad9a20b14cf9bdf7be035dc303397328fd5c5e1
+SHA256sum: 448afeaf3c69145b608420d83b774adfd0e697a7eb41825bdb193c99b584010d
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
