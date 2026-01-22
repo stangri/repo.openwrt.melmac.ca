@@ -97,10 +97,10 @@ SourceDateEpoch: 1761149982
 URL: https://github.com/stangri/luci-app-adblock-fast/
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 61440
+Installed-Size: 71680
 Filename: luci-app-adblock-fast_1.2.1-r1_all.ipk
-Size: 10242
-SHA256sum: c8c44260dd3a56a47c8adf287c0596de7152020de7075471b728fd21b2603be9
+Size: 12642
+SHA256sum: 7db76b9e5b563a0e7fba207b9ee9aee6415db5c4819befe207aa4f16a8d967fd
 Description:  Provides Web UI for adblock-fast service.
 
 Package: luci-app-advanced-reboot
