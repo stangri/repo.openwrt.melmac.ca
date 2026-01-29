@@ -236,8 +236,8 @@ URL: https://github.com/stangri/pbr/
 Architecture: all
 Installed-Size: 143360
 Filename: pbr_1.2.1-r75_all.ipk
-Size: 28973
-SHA256sum: 4a3cc916fa127ed67080a978267dcb4a9b4da04c8a40104aea064874f503127e
+Size: 28945
+SHA256sum: 715472771724d50cac864e2af44b80117f3f442e1b5776d0a4062286fc76cefa
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt (23.05 and newer) with firewall4/nft.
 
