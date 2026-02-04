@@ -13,15 +13,15 @@ Description:  Simple PROCD script to start/stop multiple services affecting DNS 
 
 Package: adblock-fast
 Version: 1.2.1-r5
-Depends: libc, jshn, curl
+Depends: libc, jshn, curl, resolveip
 License: AGPL-3.0-or-later
 Section: net
 URL: https://github.com/stangri/adblock-fast/
 Architecture: all
 Installed-Size: 112640
 Filename: adblock-fast_1.2.1-r5_all.ipk
-Size: 23842
-SHA256sum: 8979dcfa1a69cbe6bded62c23d29d31ace790726631189cc8db8bd56343718af
+Size: 23848
+SHA256sum: 09c5bb38bcbd8b94b51a659569313c79643201417c57f64aee54db1445b9aec6
 Description:  Fast AdBlocking script to block ad or abuse/malware domains with Dnsmasq, SmartDNS or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.ca/adblock-fast/ for more information.
@@ -75,8 +75,8 @@ URL: https://github.com/stangri/luci-app-adblock-fast/
 Architecture: all
 Installed-Size: 71680
 Filename: luci-app-adblock-fast_1.2.1-r5_all.ipk
-Size: 12849
-SHA256sum: e2f86368e8cd88fd335aa36eab71339efda9b611b1fd1607b5f00e6cfb151312
+Size: 13723
+SHA256sum: c05150f1344048395588a8fdb3fb92762936e6226ec9d649ebb00a02ddc886eb
 Description:  Provides Web UI for adblock-fast service.
 
 Package: luci-app-advanced-reboot
@@ -138,8 +138,8 @@ URL: https://github.com/stangri/luci-app-pbr/
 Architecture: all
 Installed-Size: 61440
 Filename: luci-app-pbr_1.2.1-r85_all.ipk
-Size: 11018
-SHA256sum: 8012eaf8121e5c707826a374b586fed70f15146311de576ab1475eff52e0b6a2
+Size: 11031
+SHA256sum: d8c181b6ace09360cc3c0f23e67678e0d100b3e2605306b69f08ea187e4b2e68
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
