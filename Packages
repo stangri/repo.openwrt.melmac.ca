@@ -75,8 +75,8 @@ URL: https://github.com/stangri/luci-app-adblock-fast/
 Architecture: all
 Installed-Size: 81920
 Filename: luci-app-adblock-fast_1.2.1-r7_all.ipk
-Size: 14859
-SHA256sum: 1da0723adc4e77b9da4fd56dcbff00a1494316e01c4c20cb667c39b71cbbaa49
+Size: 15158
+SHA256sum: d431959a9231cf0d8275bde04e0a9a1b651d18c36e4ca62b2711795bf9ac3269
 Description:  Provides Web UI for adblock-fast service.
 
 Package: luci-app-advanced-reboot
