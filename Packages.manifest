@@ -16,8 +16,8 @@ Description:  Simple PROCD script to start/stop multiple services affecting DNS 
  Please see https://docs.openwrt.melmac.net/3rd-party-dns/ for more information.
 
 Package: adblock-fast
-Version: 1.2.1-r9
-Depends: libc, jshn, curl, resolveip
+Version: 1.2.2-r1
+Depends: libc, curl, resolveip, ucode, ucode-mod-fs, ucode-mod-uci, ucode-mod-ubus
 Source: feeds/packages/stangri/adblock-fast
 SourceName: adblock-fast
 License: AGPL-3.0-or-later
@@ -26,10 +26,10 @@ SourceDateEpoch: 1761149982
 URL: https://github.com/mossdef-org/adblock-fast/
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 112640
-Filename: adblock-fast_1.2.1-r9_all.ipk
-Size: 23926
-SHA256sum: 702c53763f66ffed781a341a84b349c4f6b188d2832c489b97e622664a8d38df
+Installed-Size: 122880
+Filename: adblock-fast_1.2.2-r1_all.ipk
+Size: 25569
+SHA256sum: c12b0034882d898079b48f623e3ac0a1db586f663586ee1d328c74c4f27c60dc
 Description:  Fast AdBlocking script to block ad or abuse/malware domains with Dnsmasq, SmartDNS or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.ca/adblock-fast/ for more information.
@@ -87,8 +87,8 @@ Description:  This service can be used to fake internet connectivity for local d
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
 Package: luci-app-adblock-fast
-Version: 1.2.1-r9
-Depends: libc, luci-base, adblock-fast, jsonfilter
+Version: 1.2.2-r1
+Depends: libc, luci-base, adblock-fast, rpcd-mod-ucode
 Source: feeds/base/luci/applications/luci-app-adblock-fast
 SourceName: luci-app-adblock-fast
 License: AGPL-3.0-or-later
@@ -97,10 +97,10 @@ SourceDateEpoch: 1761149982
 URL: https://github.com/mossdef-org/luci-app-adblock-fast/
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 81920
-Filename: luci-app-adblock-fast_1.2.1-r9_all.ipk
-Size: 15135
-SHA256sum: 4295b0aa0041e3557948533f4130564a1b95657998907592b84383b1bb758708
+Installed-Size: 71680
+Filename: luci-app-adblock-fast_1.2.2-r1_all.ipk
+Size: 14306
+SHA256sum: e9a62edd20b1807d5b5f678cd8e0ba551a7e714b856f19df1d2b626430fbe54d
 Description:  Provides Web UI for adblock-fast service.
 
 Package: luci-app-advanced-reboot
