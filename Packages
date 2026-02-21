@@ -130,16 +130,16 @@ SHA256sum: c9f1d737893bf0148aa9035784a82ee57895f58563179e63d77dffa0562e8a50
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
-Version: 1.2.3-r13
-Depends: libc, luci-base, jsonfilter, rpcd-mod-ucode, pbr
+Version: 1.2.2-r6
+Depends: libc, luci-base, jsonfilter, pbr
 License: AGPL-3.0-or-later
 Section: luci
 URL: https://github.com/mossdef-org/luci-app-pbr/
 Architecture: all
-Installed-Size: 51200
-Filename: luci-app-pbr_1.2.3-r13_all.ipk
-Size: 9951
-SHA256sum: 4008d6a3109face38c2b4bb956660fc396d5294877ad17b4714028cb436a72f0
+Installed-Size: 61440
+Filename: luci-app-pbr_1.2.2-r6_all.ipk
+Size: 11120
+SHA256sum: 857a26d5e885ea74740bcb71c1c95bbb163922deccb42741a757f0dd3ab043b1
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -228,16 +228,16 @@ SHA256sum: 9b224642b8e560fd414b02d70c8c3c283fe6084ad067d8496afab0a8de8d9235
 Description:  Provides Web UI for Nebula protocol/interface.
 
 Package: pbr
-Version: 1.2.3-r13
-Depends: libc, ip-full, jshn, jsonfilter, resolveip, ucode, ucode-mod-fs, ucode-mod-uci, ucode-mod-ubus, kmod-nft-core, kmod-nft-nat, nftables-json
+Version: 1.2.2-r6
+Depends: libc, ip-full, jshn, jsonfilter, resolveip, kmod-nft-core, kmod-nft-nat, nftables-json
 License: AGPL-3.0-or-later
 Section: net
 URL: https://github.com/mossdef-org/pbr/
 Architecture: all
-Installed-Size: 184320
-Filename: pbr_1.2.3-r13_all.ipk
-Size: 37436
-SHA256sum: 8588bc59fa9ce705e167fc298c82013bf848abc939b3ff8d7a0f945f67c9875b
+Installed-Size: 153600
+Filename: pbr_1.2.2-r6_all.ipk
+Size: 31662
+SHA256sum: 280928fc9979132bb9cf4fa88fd78503c3ac671a6affd2d94e6693fb1a4f537a
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt (23.05 and newer) with firewall4/nft.
 
