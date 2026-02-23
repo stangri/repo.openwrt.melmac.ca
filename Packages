@@ -12,16 +12,16 @@ Description:  Simple PROCD script to start/stop multiple services affecting DNS 
  Please see https://docs.openwrt.melmac.net/3rd-party-dns/ for more information.
 
 Package: adblock-fast
-Version: 1.2.2-r4
+Version: 1.2.2-r6
 Depends: libc, curl, resolveip, ucode, ucode-mod-fs, ucode-mod-uci, ucode-mod-ubus
 License: AGPL-3.0-or-later
 Section: net
 URL: https://github.com/mossdef-org/adblock-fast/
 Architecture: all
 Installed-Size: 133120
-Filename: adblock-fast_1.2.2-r4_all.ipk
-Size: 26888
-SHA256sum: f89c5e7fbf34677dbcb44d31bb09879a920b06b5cdfac000b4521b3296cb48f2
+Filename: adblock-fast_1.2.2-r6_all.ipk
+Size: 26829
+SHA256sum: 0774607e7b30938bda06f5053fbcc7b3bd627a0e5f422076d0b3501ce6c82735
 Description:  Fast AdBlocking script to block ad or abuse/malware domains with Dnsmasq, SmartDNS or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.ca/adblock-fast/ for more information.
@@ -67,16 +67,16 @@ Description:  This service can be used to fake internet connectivity for local d
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
 Package: luci-app-adblock-fast
-Version: 1.2.2-r4
+Version: 1.2.2-r6
 Depends: libc, luci-base, adblock-fast, rpcd-mod-ucode
 License: AGPL-3.0-or-later
 Section: luci
 URL: https://github.com/mossdef-org/luci-app-adblock-fast/
 Architecture: all
 Installed-Size: 71680
-Filename: luci-app-adblock-fast_1.2.2-r4_all.ipk
-Size: 14316
-SHA256sum: 84d8c82a23d5e06d4317221ca58189adf1d9f0b9de5bbe3c01cc14414e49031e
+Filename: luci-app-adblock-fast_1.2.2-r6_all.ipk
+Size: 14320
+SHA256sum: 89154f90ce484fa841a7ab1a048ea290edf2a749b0103f431c57c986c3290496
 Description:  Provides Web UI for adblock-fast service.
 
 Package: luci-app-advanced-reboot
@@ -130,16 +130,16 @@ SHA256sum: c9f1d737893bf0148aa9035784a82ee57895f58563179e63d77dffa0562e8a50
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
-Version: 1.2.3-r19
+Version: 1.2.3-r23
 Depends: libc, luci-base, jsonfilter, rpcd-mod-ucode, pbr
 License: AGPL-3.0-or-later
 Section: luci
 URL: https://github.com/mossdef-org/luci-app-pbr/
 Architecture: all
 Installed-Size: 51200
-Filename: luci-app-pbr_1.2.3-r19_all.ipk
-Size: 9968
-SHA256sum: 833b850eee750fa46dbe7b18304f89ebac7bd58f92530745064d28e84d82b221
+Filename: luci-app-pbr_1.2.3-r23_all.ipk
+Size: 9993
+SHA256sum: b626e848981c37a6ff8d7a3404a7cb2e5c71528660a74d3607468d06fd14a25b
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -228,16 +228,16 @@ SHA256sum: 9b224642b8e560fd414b02d70c8c3c283fe6084ad067d8496afab0a8de8d9235
 Description:  Provides Web UI for Nebula protocol/interface.
 
 Package: pbr
-Version: 1.2.3-r19
+Version: 1.2.3-r23
 Depends: libc, ip-full, jshn, jsonfilter, resolveip, ucode, ucode-mod-fs, ucode-mod-uci, ucode-mod-ubus, kmod-nft-core, kmod-nft-nat, nftables-json
 License: AGPL-3.0-or-later
 Section: net
 URL: https://github.com/mossdef-org/pbr/
 Architecture: all
-Installed-Size: 184320
-Filename: pbr_1.2.3-r19_all.ipk
-Size: 37947
-SHA256sum: 0ece3c4f30575913ab07a4de3e4dcaa1c3268f12b09bf2ac99545430a11b501f
+Installed-Size: 194560
+Filename: pbr_1.2.3-r23_all.ipk
+Size: 38970
+SHA256sum: d1c83c9519ab4e0b258d16bd05d818de5e7a05ee126e74a248f5b731518aef19
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt (23.05 and newer) with firewall4/nft.
 
