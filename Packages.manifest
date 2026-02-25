@@ -104,7 +104,7 @@ SHA256sum: 121958c64cc278fe8ef93e34b97ee824a06d093af278448674a3729e9327dc9d
 Description:  Provides Web UI for adblock-fast service.
 
 Package: luci-app-advanced-reboot
-Version: 1.1.2-r2
+Version: 1.1.2-r3
 Depends: libc, luci-base, jshn
 Source: feeds/base/luci/applications/luci-app-advanced-reboot
 SourceName: luci-app-advanced-reboot
@@ -115,9 +115,9 @@ URL: https://github.com/mossdef-org/luci-app-advanced-reboot/
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 143360
-Filename: luci-app-advanced-reboot_1.1.2-r2_all.ipk
-Size: 14967
-SHA256sum: 0068111c60d35f620b2fb31aa8fb6f738f4317bb12ca9eb90e27c25820a4aed0
+Filename: luci-app-advanced-reboot_1.1.2-r3_all.ipk
+Size: 15281
+SHA256sum: 71cf1234e77f4de1f0bc94213d57fac01f6c729b82b1e5210247f2815439b8fd
 Description:  Provides Web UI (found under System/Advanced Reboot) to reboot supported Linksys and ZyXEL routers to an alternative partition. Also provides Web UI to shut down (power off) your device. Supported dual-partition routers are listed at https://docs.openwrt.melmac.ca/luci-app-advanced-reboot/
 
 Package: luci-app-easyflash
