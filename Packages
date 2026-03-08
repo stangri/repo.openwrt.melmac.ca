@@ -20,8 +20,8 @@ URL: https://github.com/mossdef-org/adblock-fast/
 Architecture: all
 Installed-Size: 133120
 Filename: adblock-fast_1.2.2-r10_all.ipk
-Size: 27031
-SHA256sum: d83d425c81f7bccfb9c4c610f4ab513efe4a5e4ad7785f2c40ed0656b43096eb
+Size: 27020
+SHA256sum: 3eedd411bfe971a02d793deb3a0f6857c63e1c08e6cd9bdbf7253f1f69731489
 Description:  Fast AdBlocking script to block ad or abuse/malware domains with Dnsmasq, SmartDNS or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.ca/adblock-fast/ for more information.
