@@ -130,16 +130,16 @@ SHA256sum: 28ff71308b0e905cda9c1c5591c71dfdbac43b10421756180630d39d8cf26550
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
-Version: 1.2.3-r33
-Depends: libc, luci-base, jsonfilter, rpcd-mod-ucode, pbr
+Version: 1.2.2-r12
+Depends: libc, luci-base, jsonfilter, pbr
 License: AGPL-3.0-or-later
 Section: luci
 URL: https://github.com/mossdef-org/luci-app-pbr/
 Architecture: all
-Installed-Size: 51200
-Filename: luci-app-pbr_1.2.3-r33_all.ipk
-Size: 10119
-SHA256sum: 98aceaa0afdede34f5f35435f9b09b86443cc68d51b2ba9d138fcdcfd3ad1952
+Installed-Size: 61440
+Filename: luci-app-pbr_1.2.2-r12_all.ipk
+Size: 11231
+SHA256sum: 6fde8d2cb20d9f459065b14ec050c644028b907d5a1ad1486439993ff0570d50
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -240,16 +240,16 @@ SHA256sum: 2267414b375b77f2f4e90e6a30e4a99bd5296b9bb3dfd7f17c209be068879774
 Description:  Glass - Apple-inspired glassmorphism theme for LuCI
 
 Package: pbr
-Version: 1.2.3-r33
-Depends: libc, ip-full, jshn, jsonfilter, resolveip, ucode, ucode-mod-fs, ucode-mod-uci, ucode-mod-ubus, kmod-nft-core, kmod-nft-nat, nftables-json
+Version: 1.2.2-r12
+Depends: libc, ip-full, jshn, jsonfilter, resolveip, kmod-nft-core, kmod-nft-nat, nftables-json
 License: AGPL-3.0-or-later
 Section: net
 URL: https://github.com/mossdef-org/pbr/
 Architecture: all
-Installed-Size: 204800
-Filename: pbr_1.2.3-r33_all.ipk
-Size: 39986
-SHA256sum: 7a0dab90b304afbdec3284004d1dfd5f8d9b489420a56df2d8c4e5a2461544e8
+Installed-Size: 153600
+Filename: pbr_1.2.2-r12_all.ipk
+Size: 32206
+SHA256sum: ad6071f413cf72bad6cd21f9028ba3bce298eae18fb2ae508c54e98a024ab068
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt (23.05 and newer) with firewall4/nft.
 
