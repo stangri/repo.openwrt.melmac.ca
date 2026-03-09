@@ -337,15 +337,15 @@ Description:  This service enables switching between Router, Access Point and Wi
  Please see the README for further information.
 
 Package: static-device-names
-Version: 1.0.0-r1
+Version: 1.0.1-r1
 Depends: libc
 License: GPL-3.0-or-later
 Section: utils
 Architecture: all
-Installed-Size: 30720
-Filename: static-device-names_1.0.0-r1_all.ipk
-Size: 6148
-SHA256sum: 7990333f9799da55031d8e054897fe921874319d86105c902a2078f665232481
+Installed-Size: 40960
+Filename: static-device-names_1.0.1-r1_all.ipk
+Size: 7501
+SHA256sum: aa4d19de24e52b7d2f731c8fcd085c291491874dd7d8e54a50f65f0e9a99487f
 Description:  This package contains a utility to automatically rename device names based on
  predetermined rules such as MAC addresses or PCI IDs and PCI/USB slots.
 
