@@ -453,8 +453,8 @@ Maintainer: Jean-Sebastien Trottier <jst@qualipsoft.com>
 Architecture: all
 Installed-Size: 40960
 Filename: static-device-names_1.0.1-r1_all.ipk
-Size: 7501
-SHA256sum: aa4d19de24e52b7d2f731c8fcd085c291491874dd7d8e54a50f65f0e9a99487f
+Size: 8466
+SHA256sum: dd52e341d5b9c12db42749d7cbdc52944b959187d53af5ccb0d4bf1bb428a60d
 Description:  This package contains a utility to automatically rename device names based on
  predetermined rules such as MAC addresses or PCI IDs and PCI/USB slots.
 
