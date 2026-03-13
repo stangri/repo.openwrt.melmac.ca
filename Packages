@@ -240,16 +240,16 @@ SHA256sum: 016344509f9d7685dcea69f3078eea15e79e2efae082fc1f68a10a8c3a2bdab0
 Description:  Glass - Apple-inspired glassmorphism theme for LuCI
 
 Package: pbr
-Version: 1.2.2-r12
-Depends: libc, ip-full, jshn, jsonfilter, resolveip, kmod-nft-core, kmod-nft-nat, nftables-json
+Version: 1.2.3-r39
+Depends: libc, ip-full, jshn, jsonfilter, resolveip, ucode, ucode-mod-fs, ucode-mod-uci, ucode-mod-ubus, kmod-nft-core, kmod-nft-nat, nftables-json
 License: AGPL-3.0-or-later
 Section: net
 URL: https://github.com/mossdef-org/pbr/
 Architecture: all
-Installed-Size: 153600
-Filename: pbr_1.2.2-r12_all.ipk
-Size: 32325
-SHA256sum: c26a3217c64b9925efb7daecfad035ffc354fa1df6ae535fe1b92a261771870f
+Installed-Size: 204800
+Filename: pbr_1.2.3-r39_all.ipk
+Size: 40120
+SHA256sum: c5ff4e2ea626a3ef579b0c0adee9fa55f47d15eaf705d42cf3f029305d857144
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt (23.05 and newer) with firewall4/nft.
 
