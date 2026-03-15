@@ -20,8 +20,8 @@ URL: https://github.com/mossdef-org/adblock-fast/
 Architecture: all
 Installed-Size: 133120
 Filename: adblock-fast_1.2.2-r10_all.ipk
-Size: 27020
-SHA256sum: 3eedd411bfe971a02d793deb3a0f6857c63e1c08e6cd9bdbf7253f1f69731489
+Size: 27019
+SHA256sum: 47e65392796e55cbe07703026005a442b9151105933d2d343fad073e1e72f15d
 Description:  Fast AdBlocking script to block ad or abuse/malware domains with Dnsmasq, SmartDNS or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.ca/adblock-fast/ for more information.
@@ -130,16 +130,16 @@ SHA256sum: 28ff71308b0e905cda9c1c5591c71dfdbac43b10421756180630d39d8cf26550
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
-Version: 1.2.3-r39
+Version: 1.2.3-r41
 Depends: libc, luci-base, jsonfilter, rpcd-mod-ucode, pbr
 License: AGPL-3.0-or-later
 Section: luci
 URL: https://github.com/mossdef-org/luci-app-pbr/
 Architecture: all
 Installed-Size: 51200
-Filename: luci-app-pbr_1.2.3-r39_all.ipk
+Filename: luci-app-pbr_1.2.3-r41_all.ipk
 Size: 10122
-SHA256sum: b44abcf6db078c556524fbddc6a1f54a393346d77f2f8296e7602738b7c8d029
+SHA256sum: 1c577bf09277860f66cac25247a3f21fdec92b240fffd98628fcd1dbe97eb4f1
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -240,16 +240,16 @@ SHA256sum: 016344509f9d7685dcea69f3078eea15e79e2efae082fc1f68a10a8c3a2bdab0
 Description:  Glass - Apple-inspired glassmorphism theme for LuCI
 
 Package: pbr
-Version: 1.2.3-r39
+Version: 1.2.3-r41
 Depends: libc, ip-full, jshn, jsonfilter, resolveip, ucode, ucode-mod-fs, ucode-mod-uci, ucode-mod-ubus, kmod-nft-core, kmod-nft-nat, nftables-json
 License: AGPL-3.0-or-later
 Section: net
 URL: https://github.com/mossdef-org/pbr/
 Architecture: all
 Installed-Size: 204800
-Filename: pbr_1.2.3-r39_all.ipk
-Size: 40139
-SHA256sum: 393beffac1225c694ae2472dffe6e2a0ff496113448181375c854f56897f1172
+Filename: pbr_1.2.3-r41_all.ipk
+Size: 40136
+SHA256sum: 159670a50b1c6b49d7cf7b527553a18cf8f877f33927be16a28d8a5912e65833
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt (23.05 and newer) with firewall4/nft.
 
