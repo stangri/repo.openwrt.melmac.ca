@@ -182,8 +182,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 51200
 Filename: luci-app-pbr_1.2.3-r43_all.ipk
-Size: 10432
-SHA256sum: d867d36bc1666fdb992bdd446ed7f2828dd80857de5099583c6037128dca196e
+Size: 10026
+SHA256sum: e583330752aa6c070bcb6c83fb696a9787c8267ac8403ef8b5f79cd41ec4298d
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
