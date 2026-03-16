@@ -125,8 +125,8 @@ URL: https://github.com/mossdef-org/luci-app-https-dns-proxy/
 Architecture: all
 Installed-Size: 71680
 Filename: luci-app-https-dns-proxy_2025.12.29-r5_all.ipk
-Size: 12409
-SHA256sum: 221eb2b6596c1aa73bbd74692d593963fd5710daaf5af9e9024de9e0c4c2eda0
+Size: 12422
+SHA256sum: dfbb62a0418fb370a60cba5428b0bd87c75c24c2de0dbedc48c8fdd0b86e9b37
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
