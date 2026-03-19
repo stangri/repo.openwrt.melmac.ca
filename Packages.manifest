@@ -99,8 +99,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 81920
 Filename: luci-app-adblock-fast_1.2.2-r12_all.ipk
-Size: 15307
-SHA256sum: 8d95678b03f9c15f99e654f524bc486171f8c5aededfcdee86dd03d192edebc0
+Size: 15340
+SHA256sum: 4f61a7cc9bcbe82de7f0f6b64fbef540249d51beb6cbf271cd5ec451f8a109ff
 Description:  Provides Web UI for adblock-fast service.
 
 Package: luci-app-advanced-reboot
