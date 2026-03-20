@@ -11,21 +11,6 @@ SHA256sum: 74b0b6c47e9bb1d8dddbefb00cc9da65b2d884b0f3f77321ef65e3f27d4133f8
 Description:  Simple PROCD script to start/stop multiple services affecting DNS with one command.
  Please see https://docs.openwrt.melmac.net/3rd-party-dns/ for more information.
 
-Package: adblock-fast
-Version: 1.2.2-r12
-Depends: libc, curl, resolveip, ucode, ucode-mod-fs, ucode-mod-uci, ucode-mod-ubus
-License: AGPL-3.0-or-later
-Section: net
-URL: https://github.com/mossdef-org/adblock-fast/
-Architecture: all
-Installed-Size: 133120
-Filename: adblock-fast_1.2.2-r12_all.ipk
-Size: 27021
-SHA256sum: 9a0264b807551679cbbce98e9b3e386ff358f53d377e2cff8d46a41be83a6cef
-Description:  Fast AdBlocking script to block ad or abuse/malware domains with Dnsmasq, SmartDNS or Unbound.
- Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
- Please see https://docs.openwrt.melmac.ca/adblock-fast/ for more information.
-
 Package: antminer-monitor
 Version: 0.4.0-6
 Depends: libc, python-light, python-pip
