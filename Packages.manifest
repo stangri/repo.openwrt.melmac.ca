@@ -110,14 +110,14 @@ Source: feeds/base/luci/applications/luci-app-advanced-reboot
 SourceName: luci-app-advanced-reboot
 License: AGPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1761149982
+SourceDateEpoch: 1773709139
 URL: https://github.com/mossdef-org/luci-app-advanced-reboot/
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 71680
 Filename: luci-app-advanced-reboot_1.1.2-r4_all.ipk
-Size: 12735
-SHA256sum: 45f71a0f160c77d4f9b91d62f25809428b8648dc96715d2c2ea68775298b5e7e
+Size: 12740
+SHA256sum: f0f87dcfdeeb105f5d0c3c485a75bf4c1456e0869f0322e60fa8c8d1c68e1b5d
 Description:  Provides Web UI (found under System/Advanced Reboot) to reboot supported Linksys and ZyXEL routers to an alternative partition. Also provides Web UI to shut down (power off) your device. Supported dual-partition routers are listed at https://docs.openwrt.melmac.ca/luci-app-advanced-reboot/
 
 Package: luci-app-easyflash
@@ -159,31 +159,31 @@ Source: feeds/base/luci/applications/luci-app-https-dns-proxy
 SourceName: luci-app-https-dns-proxy
 License: AGPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1761149982
+SourceDateEpoch: 1773709139
 URL: https://github.com/mossdef-org/luci-app-https-dns-proxy/
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 71680
 Filename: luci-app-https-dns-proxy_2025.12.29-r5_all.ipk
-Size: 12373
-SHA256sum: cc2dfa19afea44c3796301773676c9e8b6b12e96d6ae06f172c53477261da07a
+Size: 12376
+SHA256sum: 247b4618608ba509a504171514eca0d337ece5448389d27cf60e088633ec0736
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
-Version: 1.2.3-r47
+Version: 1.2.3-r49
 Depends: libc, luci-base, jsonfilter, rpcd-mod-ucode, pbr
 Source: feeds/base/luci/applications/luci-app-pbr
 SourceName: luci-app-pbr
 License: AGPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1761149982
+SourceDateEpoch: 1773709139
 URL: https://github.com/mossdef-org/luci-app-pbr/
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 51200
-Filename: luci-app-pbr_1.2.3-r47_all.ipk
+Filename: luci-app-pbr_1.2.3-r49_all.ipk
 Size: 10430
-SHA256sum: 737bc3f5557355fd1afb88b34a03c125c8f5975aaf9993dca0add1382fe829a4
+SHA256sum: 44476f7356b4f11c8c6784384140a1ff4a45ac49a5e6ef79a95c51c8e515f2a5
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -300,36 +300,36 @@ SHA256sum: 9b224642b8e560fd414b02d70c8c3c283fe6084ad067d8496afab0a8de8d9235
 Description:  Provides Web UI for Nebula protocol/interface.
 
 Package: luci-theme-glass
-Version: 1.0.3-r1
+Version: 1.0.5-r1
 Depends: libc
 Source: feeds/base/luci/applications/luci-theme-glass
 SourceName: luci-theme-glass
 Section: luci
-SourceDateEpoch: 1773068080
+SourceDateEpoch: 1773517013
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 133120
-Filename: luci-theme-glass_1.0.3-r1_all.ipk
-Size: 22610
-SHA256sum: 016344509f9d7685dcea69f3078eea15e79e2efae082fc1f68a10a8c3a2bdab0
+Installed-Size: 153600
+Filename: luci-theme-glass_1.0.5-r1_all.ipk
+Size: 25601
+SHA256sum: 4599ef9dea4a4b35b0b41b5c21ac8b329ea9795eec6cd1c0849c08dc565a0b29
 Description:  Glass - Apple-inspired glassmorphism theme for LuCI
 
 Package: pbr
-Version: 1.2.3-r47
+Version: 1.2.3-r49
 Depends: libc, ip-full, jshn, jsonfilter, resolveip, ucode, ucode-mod-fs, ucode-mod-uci, ucode-mod-ubus, kmod-nft-core, kmod-nft-nat, nftables-json
 Source: feeds/packages/stangri/pbr
 SourceName: pbr
 License: AGPL-3.0-or-later
 Section: net
-SourceDateEpoch: 1761149982
+SourceDateEpoch: 1773709139
 URL: https://github.com/mossdef-org/pbr/
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
 Installed-Size: 204800
-Filename: pbr_1.2.3-r47_all.ipk
-Size: 40170
-SHA256sum: 59750059fd7e148f9ab357c280c8b3c7d393880871650a9487c6c2ff6f078833
+Filename: pbr_1.2.3-r49_all.ipk
+Size: 40483
+SHA256sum: 7ee5243eb0ac6eb9dfe217d481468c2a53a6b9f6f06e0ef318f192ce9c28cdc4
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt (23.05 and newer) with firewall4/nft.
 
@@ -448,13 +448,13 @@ SourceName: static-device-names
 License: GPL-3.0-or-later
 LicenseFiles: LICENSE
 Section: utils
-SourceDateEpoch: 1761149982
+SourceDateEpoch: 1773709139
 Maintainer: Jean-Sebastien Trottier <jst@qualipsoft.com>
 Architecture: all
 Installed-Size: 40960
 Filename: static-device-names_1.0.1-r1_all.ipk
-Size: 8466
-SHA256sum: dd52e341d5b9c12db42749d7cbdc52944b959187d53af5ccb0d4bf1bb428a60d
+Size: 8465
+SHA256sum: 29315336f81be55102f597761008ee44964f50fc2b8929ea02a1d74549d40ee0
 Description:  This package contains a utility to automatically rename device names based on
  predetermined rules such as MAC addresses or PCI IDs and PCI/USB slots.
 
