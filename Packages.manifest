@@ -67,23 +67,6 @@ SHA256sum: 53082b0b55a972d2a7f101706b20fb943d1b024f0fd3b59ec13305876c7e4205
 Description:  This service can be used to fake internet connectivity for local devices.
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
-Package: luci-app-adblock-fast
-Version: 1.2.2-r12
-Depends: libc, luci-base, adblock-fast, rpcd-mod-ucode
-Source: feeds/base/luci/applications/luci-app-adblock-fast
-SourceName: luci-app-adblock-fast
-License: AGPL-3.0-or-later
-Section: luci
-SourceDateEpoch: 1761149982
-URL: https://github.com/mossdef-org/luci-app-adblock-fast/
-Maintainer: OpenWrt LuCI community
-Architecture: all
-Installed-Size: 81920
-Filename: luci-app-adblock-fast_1.2.2-r12_all.ipk
-Size: 15340
-SHA256sum: 4f61a7cc9bcbe82de7f0f6b64fbef540249d51beb6cbf271cd5ec451f8a109ff
-Description:  Provides Web UI for adblock-fast service.
-
 Package: luci-app-advanced-reboot
 Version: 1.1.2-r4
 Depends: libc, luci-base, jshn
