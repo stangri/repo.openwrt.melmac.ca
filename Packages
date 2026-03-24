@@ -73,10 +73,10 @@ License: AGPL-3.0-or-later
 Section: luci
 URL: https://github.com/mossdef-org/luci-app-adblock-fast/
 Architecture: all
-Installed-Size: 81920
+Installed-Size: 92160
 Filename: luci-app-adblock-fast_1.2.2-r14_all.ipk
-Size: 17362
-SHA256sum: eef9c9fb317ee314f5b424f8c16609b5134ee65c49b96959db39acc82f77d632
+Size: 17561
+SHA256sum: 50496cd3511bff89f1be446c03b2470cc4604afe7f2d0a0e493e084dbb254491
 Description:  Provides Web UI for adblock-fast service.
 
 Package: luci-app-advanced-reboot
