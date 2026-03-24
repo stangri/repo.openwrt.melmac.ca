@@ -16,7 +16,7 @@ Description:  Simple PROCD script to start/stop multiple services affecting DNS 
  Please see https://docs.openwrt.melmac.net/3rd-party-dns/ for more information.
 
 Package: adblock-fast
-Version: 1.2.2-r14
+Version: 1.2.2-r15
 Depends: libc, curl, resolveip, ucode, ucode-mod-fs, ucode-mod-uci, ucode-mod-ubus
 Source: feeds/packages/stangri/adblock-fast
 SourceName: adblock-fast
@@ -27,9 +27,9 @@ URL: https://github.com/mossdef-org/adblock-fast/
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
 Installed-Size: 133120
-Filename: adblock-fast_1.2.2-r14_all.ipk
-Size: 27046
-SHA256sum: 8094a190aba50fed0eec57d3542849f3f9f3f2b36e279148292879ee69ba0bad
+Filename: adblock-fast_1.2.2-r15_all.ipk
+Size: 27049
+SHA256sum: 5563a36f0c236e926656906e7f3f9966b20e90e7eed18d28bfbd67eb2f0348e7
 Description:  Fast AdBlocking script to block ad or abuse/malware domains with Dnsmasq, SmartDNS or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.ca/adblock-fast/ for more information.
@@ -87,7 +87,7 @@ Description:  This service can be used to fake internet connectivity for local d
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
 Package: luci-app-adblock-fast
-Version: 1.2.2-r14
+Version: 1.2.2-r15
 Depends: libc, luci-base, adblock-fast, rpcd-mod-ucode
 Source: feeds/base/luci/applications/luci-app-adblock-fast
 SourceName: luci-app-adblock-fast
@@ -98,9 +98,9 @@ URL: https://github.com/mossdef-org/luci-app-adblock-fast/
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 92160
-Filename: luci-app-adblock-fast_1.2.2-r14_all.ipk
+Filename: luci-app-adblock-fast_1.2.2-r15_all.ipk
 Size: 17561
-SHA256sum: 50496cd3511bff89f1be446c03b2470cc4604afe7f2d0a0e493e084dbb254491
+SHA256sum: 3a60c5ee4354dab9d352573482d180c1559acf6957a35aa5f565accb1a5ca992
 Description:  Provides Web UI for adblock-fast service.
 
 Package: luci-app-advanced-reboot
