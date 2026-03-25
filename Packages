@@ -228,15 +228,15 @@ SHA256sum: 9b224642b8e560fd414b02d70c8c3c283fe6084ad067d8496afab0a8de8d9235
 Description:  Provides Web UI for Nebula protocol/interface.
 
 Package: luci-theme-glass
-Version: 1.0.5-r1
+Version: 1.1.2-r1
 Depends: libc
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
-Installed-Size: 153600
-Filename: luci-theme-glass_1.0.5-r1_all.ipk
-Size: 25601
-SHA256sum: 4599ef9dea4a4b35b0b41b5c21ac8b329ea9795eec6cd1c0849c08dc565a0b29
+Installed-Size: 174080
+Filename: luci-theme-glass_1.1.2-r1_all.ipk
+Size: 29272
+SHA256sum: 7b4b64ebfd949df4831f3f3865dc82f2226c7662419e1c27088eeaddfb4790ad
 Description:  Glass - Apple-inspired glassmorphism theme for LuCI
 
 Package: pbr
