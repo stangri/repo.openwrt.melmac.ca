@@ -75,8 +75,8 @@ URL: https://github.com/mossdef-org/luci-app-adblock-fast/
 Architecture: all
 Installed-Size: 92160
 Filename: luci-app-adblock-fast_1.2.2-r14_all.ipk
-Size: 17676
-SHA256sum: 1391cc0442cdabc449526d84eefea9d314b7c374684edd1d4e222307b3e8e9bd
+Size: 17751
+SHA256sum: 22c4f1bdc57e7ce1361668ee7d08a750bc35f157a9c45fd4689faf386f1a75f0
 Description:  Provides Web UI for adblock-fast service.
 
 Package: luci-app-advanced-reboot
