@@ -13,15 +13,15 @@ Description:  Simple PROCD script to start/stop multiple services affecting DNS 
 
 Package: adblock-fast
 Version: 1.2.2-r15
-Depends: libc, curl, resolveip, ucode, ucode-mod-fs, ucode-mod-uci, ucode-mod-ubus
+Depends: libc, curl, resolveip, ucode, ucode-mod-fs, ucode-mod-uci, ucode-mod-ubus, ucode-mod-uloop
 License: AGPL-3.0-or-later
 Section: net
 URL: https://github.com/mossdef-org/adblock-fast/
 Architecture: all
 Installed-Size: 133120
 Filename: adblock-fast_1.2.2-r15_all.ipk
-Size: 27075
-SHA256sum: ffad0ea123605fdc98e742c04c5cb175bf6b3a049906e01a7ed73188a520b6a9
+Size: 27510
+SHA256sum: 0983bc583a64bbe9924072c6107e215620b5ee01d466a338b3f79fd212a1366c
 Description:  Fast AdBlocking script to block ad or abuse/malware domains with Dnsmasq, SmartDNS or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.ca/adblock-fast/ for more information.
