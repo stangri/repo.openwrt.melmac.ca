@@ -28,8 +28,8 @@ Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
 Installed-Size: 133120
 Filename: adblock-fast_1.2.2-r16_all.ipk
-Size: 27486
-SHA256sum: 078ad7baa6427aad9dd193191a417bfa80fc94eb415a263568c95c0a4a4f089f
+Size: 27490
+SHA256sum: faa6abe253d4f650eab1f76f60c927a4ee7556c1892e58ce66562c4471a7fec4
 Description:  Fast AdBlocking script to block ad or abuse/malware domains with Dnsmasq, SmartDNS or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.ca/adblock-fast/ for more information.
@@ -99,8 +99,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 92160
 Filename: luci-app-adblock-fast_1.2.2-r16_all.ipk
-Size: 17743
-SHA256sum: ed83b41b73434d45306422040f5e3567c0d306f1199098281fd84e42ff75a83d
+Size: 17799
+SHA256sum: 41b75c179779e78b892662a52f167ae916869a1e0f88b4c8047444e42e0f0e87
 Description:  Provides Web UI for adblock-fast service.
 
 Package: luci-app-advanced-reboot
