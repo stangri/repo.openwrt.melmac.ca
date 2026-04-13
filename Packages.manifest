@@ -170,8 +170,8 @@ SHA256sum: 247b4618608ba509a504171514eca0d337ece5448389d27cf60e088633ec0736
 Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-pbr
-Version: 1.2.2-r12
-Depends: libc, luci-base, jsonfilter, pbr
+Version: 1.2.3-r51
+Depends: libc, luci-base, jsonfilter, rpcd-mod-ucode, pbr
 Source: feeds/base/luci/applications/luci-app-pbr
 SourceName: luci-app-pbr
 License: AGPL-3.0-or-later
@@ -180,10 +180,10 @@ SourceDateEpoch: 1773709139
 URL: https://github.com/mossdef-org/luci-app-pbr/
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 61440
-Filename: luci-app-pbr_1.2.2-r12_all.ipk
-Size: 11232
-SHA256sum: f3dc028053af2d148e2d426986d1d5efbdbe4a9985ebfcea3019bffcd19ba011
+Installed-Size: 51200
+Filename: luci-app-pbr_1.2.3-r51_all.ipk
+Size: 10430
+SHA256sum: 6399773ce04d7268198412eddbb37ca896b0b86ace5adb4107cfe711a68563b3
 Description:  Provides Web UI for Policy Based Routing Service.
 
 Package: luci-app-simple-adblock
@@ -316,8 +316,8 @@ SHA256sum: 7b4b64ebfd949df4831f3f3865dc82f2226c7662419e1c27088eeaddfb4790ad
 Description:  Glass - Apple-inspired glassmorphism theme for LuCI
 
 Package: pbr
-Version: 1.2.2-r12
-Depends: libc, ip-full, jshn, jsonfilter, resolveip, kmod-nft-core, kmod-nft-nat, nftables-json
+Version: 1.2.3-r51
+Depends: libc, ip-full, jshn, jsonfilter, resolveip, ucode, ucode-mod-fs, ucode-mod-uci, ucode-mod-ubus, kmod-nft-core, kmod-nft-nat, nftables-json
 Source: feeds/packages/stangri/pbr
 SourceName: pbr
 License: AGPL-3.0-or-later
@@ -326,10 +326,10 @@ SourceDateEpoch: 1773709139
 URL: https://github.com/mossdef-org/pbr/
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 153600
-Filename: pbr_1.2.2-r12_all.ipk
-Size: 32326
-SHA256sum: 0048d208555eee08922395fcfa181cb515f64442c396b5cb05efccf597be3f87
+Installed-Size: 204800
+Filename: pbr_1.2.3-r51_all.ipk
+Size: 40462
+SHA256sum: d15c5a7fef7b575e795dde4b5b14874e7d11ee27b0dbb7de8fde01bcfe123960
 Description:  This service enables policy-based routing for WAN interfaces and various VPN tunnels.
  This version supports OpenWrt (23.05 and newer) with firewall4/nft.
 
