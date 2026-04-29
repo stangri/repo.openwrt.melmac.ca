@@ -16,7 +16,7 @@ Description:  Simple PROCD script to start/stop multiple services affecting DNS 
  Please see https://docs.openwrt.melmac.net/3rd-party-dns/ for more information.
 
 Package: adblock-fast
-Version: 1.2.2-r20
+Version: 1.2.2-r22
 Depends: libc, curl, resolveip, ucode, ucode-mod-fs, ucode-mod-uci, ucode-mod-ubus, ucode-mod-uloop
 Source: feeds/packages/stangri/adblock-fast
 SourceName: adblock-fast
@@ -27,9 +27,9 @@ URL: https://github.com/mossdef-org/adblock-fast/
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
 Installed-Size: 133120
-Filename: adblock-fast_1.2.2-r20_all.ipk
-Size: 27773
-SHA256sum: f7df72608ecdabf4be59dc2fc1d8ee80c105090952fc3c29939ac3e68701f1f5
+Filename: adblock-fast_1.2.2-r22_all.ipk
+Size: 27774
+SHA256sum: 063d3536d4dcfa8589a3fc74c760b4a43ae91458783f26ffce1cfd92ad78f876
 Description:  Fast AdBlocking script to block ad or abuse/malware domains with Dnsmasq, SmartDNS or Unbound.
  Script supports local/remote list of domains and hosts-files for both block-listing and allow-listing.
  Please see https://docs.openwrt.melmac.ca/adblock-fast/ for more information.
@@ -87,7 +87,7 @@ Description:  This service can be used to fake internet connectivity for local d
  Can be used on routers with no internet access to suppress warnings on local devices of no internet connectivity.
 
 Package: luci-app-adblock-fast
-Version: 1.2.2-r20
+Version: 1.2.2-r22
 Depends: libc, luci-base, adblock-fast, rpcd-mod-ucode
 Source: feeds/base/luci/applications/luci-app-adblock-fast
 SourceName: luci-app-adblock-fast
@@ -98,9 +98,9 @@ URL: https://github.com/mossdef-org/luci-app-adblock-fast/
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 92160
-Filename: luci-app-adblock-fast_1.2.2-r20_all.ipk
-Size: 18043
-SHA256sum: fff587d952cde0851b41c98c18df1b3107286ad4dda496c1d524c408dd9d2be8
+Filename: luci-app-adblock-fast_1.2.2-r22_all.ipk
+Size: 18046
+SHA256sum: b90e1d9c361b6f0389111fe9770539b80983d830ee8ae6fa2e6fad27126d63be
 Description:  Provides Web UI for adblock-fast service.
 
 Package: luci-app-advanced-reboot
